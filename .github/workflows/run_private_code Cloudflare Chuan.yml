@@ -27,6 +27,11 @@ jobs:
       TITLE_START: "1"
       THUMB_START: "1"
 
+      WHISPER_MODEL: medium
+      WHISPER_LANGUAGE: en
+      WHISPER_TASK: transcribe
+
+
       # công tắt chọn poll hoặc cloudflare
       IMG_PROVIDER: cloudflare
       CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
