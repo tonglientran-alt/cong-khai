@@ -22,7 +22,7 @@ jobs:
       YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
 
       # chon thumb tieude bat dau
-      SEQ_BASE_RUN: "5"
+      SEQ_BASE_RUN: "7"
       TITLE_START: "4"
       THUMB_START: "4"
 
