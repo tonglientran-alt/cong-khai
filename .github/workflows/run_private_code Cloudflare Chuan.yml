@@ -2,7 +2,7 @@ name: run-private-code
 
 on:
   schedule:
-    - cron: '0 18 * * *'   # 11:00 VN
+    - cron: '0 16 * * *'   # 11:00 VN
 
 jobs:
   run-private:
