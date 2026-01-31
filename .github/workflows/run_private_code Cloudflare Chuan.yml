@@ -2,9 +2,7 @@ name: run-private-code
 
 on:
   schedule:
-    - cron: '0 21 * * *'   # 11:00 VN
-    - cron: '0 4 * * *'   # 13:00 VN
-    - cron: '0 11 * * *'   # 16:00 VN
+    - cron: '0 18 * * *'   # 11:00 VN
 
 jobs:
   run-private:
@@ -22,9 +20,9 @@ jobs:
       YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
 
       # chon thumb tieude bat dau
-      SEQ_BASE_RUN: "7"
-      TITLE_START: "4"
-      THUMB_START: "4"
+      SEQ_BASE_RUN: "14"
+      TITLE_START: "10"
+      THUMB_START: "10"
 
       WHISPER_MODEL: medium
       WHISPER_LANGUAGE: en
